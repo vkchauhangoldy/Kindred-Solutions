@@ -1,0 +1,60 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+.logo,
+h1 {
+  text-align: center;
+}
+
+.input-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.input-controls input {
+  padding: 1rem;
+  border: 1px solid gray;
+  outline: 0;
+  font-size: 1.6rem;
+  border-radius: 0.4rem;
+}
+.input-controls input::placeholder {
+  font-size: 1.6rem;
+}
+.button {
+  padding: 1rem;
+  width: 100%;
+  font-size: 1.6rem;
+  border: 0;
+  font-weight: bold;
+  background-color: rgb(24, 126, 241);
+  border-radius: 0.4rem;
+  color: azure;
+  letter-spacing: 0.35px;
+  cursor: pointer;
+}
+.forgot p {
+  font-size: 1.6rem;
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  color: rgb(24, 126, 241);
+}
+.paragrap {
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  text-align: justify;
+}

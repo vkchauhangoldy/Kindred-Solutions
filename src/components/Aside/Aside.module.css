@@ -1,0 +1,36 @@
+.container {
+  height: 100vh;
+  background: url("../../assets/background.jpg");
+  background-repeat: no-repeat;
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.card {
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+.heading {
+  font-size: 4rem;
+}
+.para {
+  font-size: 1.6rem;
+}
+.book {
+  padding: 1.2rem;
+  width: 40%;
+  margin: auto;
+  border-radius: 0.4rem;
+  border: 0;
+  background-color: rgb(231, 145, 15);
+  color: whitesmoke;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+}
